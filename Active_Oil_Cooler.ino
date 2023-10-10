@@ -37,7 +37,7 @@ void setup() {
   setPWM1A(0.0f); //set duty to 50% on pin 9
   setPWM1B(0.0f); //set duty to 20% on pin 10
   setPWM2(0.0f); //set duty to 80% on pin 3
- 
+  
 }
 
 void loop() {
