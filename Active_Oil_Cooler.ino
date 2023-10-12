@@ -44,6 +44,8 @@ void loop() {
   int temp = checkTemp();
   setSpeed(temp);
 
+  Serial.println(STATE);
+
   switch (STATE) {
     case OFF: 
     setFans(0.0);
