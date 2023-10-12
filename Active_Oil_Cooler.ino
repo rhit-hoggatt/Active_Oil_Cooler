@@ -1,6 +1,9 @@
 //Code to run oil cooler fans on Porsche 944
 //Written by: John H.
 
+//libraries
+#include <FanController.h>
+
 //inputs
 int temp_1 = 4;
 int temp_2 = 7;
